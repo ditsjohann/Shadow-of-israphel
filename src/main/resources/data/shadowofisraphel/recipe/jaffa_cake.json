@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		{"item": "minecraft:wheat"},
+		{"item": "minecraft:cocoa_beans"},
+		{"item": "minecraft:sweet_berries"}
+	],
+	"result": {
+		"id": "shadowofisraphel:jaffa_cake",
+		"count": 3
+	}
+}

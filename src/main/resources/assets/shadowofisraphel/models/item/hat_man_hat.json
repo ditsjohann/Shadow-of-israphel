@@ -1,0 +1,86 @@
+{
+	"textures": {
+		"felt": "shadowofisraphel:item/hat_man_hat",
+		"particle": "shadowofisraphel:item/hat_man_hat"
+	},
+	"elements": [
+		{
+			"name": "brim",
+			"from": [0.5, 14.4, 0.5],
+			"to": [15.5, 15.4, 15.5],
+			"faces": {
+				"north": {"uv": [0, 8, 15, 9], "texture": "#felt"},
+				"east": {"uv": [0, 8, 15, 9], "texture": "#felt"},
+				"south": {"uv": [0, 8, 15, 9], "texture": "#felt"},
+				"west": {"uv": [0, 8, 15, 9], "texture": "#felt"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#felt"},
+				"down": {"uv": [0, 0, 8, 8], "texture": "#felt"}
+			}
+		},
+		{
+			"name": "band",
+			"from": [3.5, 15.4, 3.5],
+			"to": [12.5, 17.4, 12.5],
+			"faces": {
+				"north": {"uv": [0, 12, 9, 14], "texture": "#felt"},
+				"east": {"uv": [0, 12, 9, 14], "texture": "#felt"},
+				"south": {"uv": [0, 12, 9, 14], "texture": "#felt"},
+				"west": {"uv": [0, 12, 9, 14], "texture": "#felt"}
+			}
+		},
+		{
+			"name": "crown",
+			"from": [3.5, 17.4, 3.5],
+			"to": [12.5, 25, 12.5],
+			"faces": {
+				"north": {"uv": [8, 0, 16, 8], "texture": "#felt"},
+				"east": {"uv": [8, 0, 16, 8], "texture": "#felt"},
+				"south": {"uv": [8, 0, 16, 8], "texture": "#felt"},
+				"west": {"uv": [8, 0, 16, 8], "texture": "#felt"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#felt"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation": [0, 0, 0],
+			"translation": [0, 0, 0],
+			"scale": [1, 1, 1]
+		},
+		"gui": {
+			"rotation": [25, 45, 0],
+			"translation": [0, -7, 0],
+			"scale": [0.62, 0.62, 0.62]
+		},
+		"ground": {
+			"rotation": [0, 0, 0],
+			"translation": [0, -2, 0],
+			"scale": [0.35, 0.35, 0.35]
+		},
+		"fixed": {
+			"rotation": [0, 0, 0],
+			"translation": [0, -7, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, -2, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, -2, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"translation": [0, -3, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"translation": [0, -3, 0],
+			"scale": [0.4, 0.4, 0.4]
+		}
+	}
+}

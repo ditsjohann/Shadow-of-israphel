@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		" E ",
+		"CGC",
+		"CCC"
+	],
+	"key": {
+		"E": {"item": "minecraft:ender_eye"},
+		"C": {"item": "shadowofisraphel:cursed_sand"},
+		"G": {"item": "minecraft:gold_block"}
+	},
+	"result": {
+		"id": "shadowofisraphel:cursed_idol",
+		"count": 1
+	}
+}

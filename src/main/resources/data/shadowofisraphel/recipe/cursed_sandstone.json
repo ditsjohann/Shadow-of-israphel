@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"pattern": [
+		"SSS",
+		"SCS",
+		"SSS"
+	],
+	"key": {
+		"S": {"item": "minecraft:sandstone"},
+		"C": {"item": "shadowofisraphel:cursed_sand"}
+	},
+	"result": {
+		"id": "shadowofisraphel:cursed_sandstone",
+		"count": 8
+	}
+}

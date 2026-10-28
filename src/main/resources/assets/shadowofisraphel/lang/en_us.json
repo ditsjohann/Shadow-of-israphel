@@ -1,0 +1,37 @@
+{
+	"itemGroup.shadowofisraphel.main": "Shadow of Israphel",
+
+	"item.shadowofisraphel.jaffa_cake": "Jaffa Cake",
+	"item.shadowofisraphel.honeydews_mead": "Honeydew's Mead",
+	"item.shadowofisraphel.cursed_sand": "Cursed Sand",
+	"item.shadowofisraphel.shadow_shard": "Shadow Shard",
+	"item.shadowofisraphel.cursed_idol": "Cursed Idol",
+	"item.shadowofisraphel.cursed_idol.tooltip": "Set it down at night... if you dare.",
+	"item.shadowofisraphel.cursed_idol.daytime": "The idol is cold. It will only stir after dark.",
+	"item.shadowofisraphel.cursed_idol.already_here": "Israphel is already close. You can feel it.",
+	"item.shadowofisraphel.shadow_blade": "Shadow Blade",
+	"item.shadowofisraphel.shadow_blade.tooltip": "Forged from Israphel's own darkness",
+	"item.shadowofisraphel.hat_man_hat": "Hat Man's Hat",
+	"item.shadowofisraphel.hat_man_hat.tooltip": "A very lucky hat. Allegedly.",
+	"item.shadowofisraphel.israphel_spawn_egg": "Israphel Spawn Egg",
+	"item.shadowofisraphel.sand_monster_spawn_egg": "Sand Monster Spawn Egg",
+	"item.shadowofisraphel.hat_man_spawn_egg": "Hat Man Spawn Egg",
+
+	"block.shadowofisraphel.cursed_sandstone": "Cursed Sandstone",
+
+	"entity.shadowofisraphel.israphel": "Israphel",
+	"entity.shadowofisraphel.israphel.summoned": "The shadows gather. Israphel has awoken!",
+	"entity.shadowofisraphel.israphel.enraged": "Israphel: \"You cannot fight the darkness forever!\"",
+	"entity.shadowofisraphel.israphel.defeated": "Israphel: \"This is not the end... the shadow always returns...\"",
+	"entity.shadowofisraphel.sand_monster": "Sand Monster",
+	"entity.shadowofisraphel.hat_man": "Hat Man",
+	"entity.shadowofisraphel.hat_man.gift": "Ah, a traveller! Here, take my spare hat. Every hero needs a good hat.",
+	"entity.shadowofisraphel.hat_man.line0": "Hats! Hats are the answer to most questions.",
+	"entity.shadowofisraphel.hat_man.line1": "I'd keep away from the desert after dark. The sand moves.",
+	"entity.shadowofisraphel.hat_man.line2": "Have you seen my hat? ...Oh. It's on my head.",
+	"entity.shadowofisraphel.hat_man.line3": "They say a man with red eyes walks the land at night.",
+	"entity.shadowofisraphel.hat_man.line4": "A Jaffa Cake is a cake. Don't let anyone tell you otherwise.",
+	"entity.shadowofisraphel.hat_man.line5": "I once met a dwarf who loved gold more than I love hats. Remarkable.",
+	"entity.shadowofisraphel.hat_man.line6": "Some idols are best left buried.",
+	"entity.shadowofisraphel.hat_man.line7": "Hat. Hat hat. Hat."
+}

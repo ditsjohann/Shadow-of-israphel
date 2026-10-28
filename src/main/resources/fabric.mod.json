@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "shadowofisraphel",
+	"version": "${version}",
+	"name": "Shadow of Israphel",
+	"description": "An unofficial fan-made mod inspired by the Yogscast's Shadow of Israphel series. Summon and battle Israphel, survive his sand monsters, meet the Hat Man and share a Jaffa Cake and some of Honeydew's mead.",
+	"authors": [
+		"ditsjohann"
+	],
+	"contact": {
+		"sources": "https://github.com/ditsjohann/Shadow-of-israphel"
+	},
+	"license": "MIT",
+	"icon": "assets/shadowofisraphel/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.ditsjohann.shadowofisraphel.ShadowOfIsraphel"
+		],
+		"client": [
+			"com.ditsjohann.shadowofisraphel.client.ShadowOfIsraphelClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
