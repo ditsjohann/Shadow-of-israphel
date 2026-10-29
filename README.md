@@ -9,17 +9,17 @@ endorsed by the Yogscast. All code and textures here are original.
 ### Mobs
 | Mob | Where | What it does |
 | --- | --- | --- |
-| **Israphel** | Summoned with the Cursed Idol | Boss with 300 HP and a boss bar. He charges up shadow bolts (magic damage plus Wither), teleports behind you, raises sand monsters, and covers the area in Darkness. Arrows often pass through him. Below half health he becomes enraged, which makes him faster, tougher and quicker to use his abilities. He drops Shadow Shards and gold. |
-| **Sand Monster** | Deserts and badlands at night | A zombie made of cursed sand. It does not burn in daylight and slows you when it hits you. Drops Cursed Sand. |
+| **Israphel** | Summoned with the Cursed Idol | Boss with 300 HP and a boss bar. He charges up shadow bolts (magic damage plus Wither), teleports behind you, raises sand monsters, and covers the area in Darkness. Arrows often pass through him. Below half health he becomes enraged, which makes him faster, tougher and quicker to use his abilities. He drops 4–8 Shadow Shards (more with Looting), 3–7 gold ingots and 150 XP. |
+| **Sand Monster** | Deserts and badlands at night | A zombie made of cursed sand. It does not burn in daylight and slows you when it hits you. Israphel also summons them during his fight. Drops Cursed Sand and Sand. |
 | **Hat Man** | Rarely in plains, meadows and forests | A friendly wanderer. Right-click him for wisdom; the first time, he gives you his spare hat. He runs away from Israphel and his monsters. |
 
 ### Items and blocks
-- **Cursed Idol**: place it on a block **at night** to summon Israphel. It works at any time outside the Overworld.
+- **Cursed Idol**: place it on a block **at night** to summon Israphel. It works at any time outside the Overworld. It won't work if Israphel is already alive within 64 blocks.
 - **Shadow Shard**: dropped by Israphel.
-- **Shadow Blade**: a netherite-tier sword that withers what it hits.
+- **Shadow Blade**: a netherite-tier sword that withers what it hits. Fireproof, with 1800 durability; repair it with Shadow Shards.
 - **Hat Man's Hat**: wear it on your head for Luck.
 - **Jaffa Cake**: a quick-to-eat snack.
-- **Honeydew's Mead**: gives Strength, and sometimes Nausea. You get the bottle back.
+- **Honeydew's Mead**: gives Strength for 60 seconds, and sometimes Nausea. You get the bottle back.
 - **Cursed Sand** and **Cursed Sandstone**.
 - Spawn eggs for all three mobs.
 
@@ -39,6 +39,13 @@ Everything appears in the **Shadow of Israphel** creative tab.
 2. Put [Fabric API](https://modrinth.com/mod/fabric-api) and
    `shadow-of-israphel-<version>.jar` in your `mods` folder.
 
+There are no published releases yet. To get a jar, either build it yourself
+(see below) or download the `shadow-of-israphel` artifact from the latest
+successful run in the repository's **Actions** tab. Use the jar without
+`-sources` in its name.
+
+The mod has to be installed on both the client and the server.
+
 ## Building
 Requires JDK 21.
 
@@ -56,3 +63,15 @@ that script and re-run it rather than editing the PNGs by hand:
 ```sh
 python3 tools/generate_textures.py
 ```
+
+## Project layout
+| Path | Contents |
+| --- | --- |
+| `src/main/java` | Items, blocks, mobs and their registration (runs on client and server) |
+| `src/client/java` | Mob renderers (client only) |
+| `src/main/resources/assets` | Models, textures, language file |
+| `src/main/resources/data` | Recipes, loot tables and tags |
+| `tools/generate_textures.py` | Generates every texture |
+
+## License
+[MIT](LICENSE).
